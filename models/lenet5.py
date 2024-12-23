@@ -1,8 +1,8 @@
 import tensorflow as tf
 
 class LeNet5(tf.keras.Model):
-    def __init__(self, input_shape=(32, 32, 1)):
-        super(LeNet5, self).__init__()
+    def __init__(self, input_shape=(32, 32, 1), **kwargs):
+        super(LeNet5, self).__init__(**kwargs)
         self.conv1 = tf.keras.layers.Conv2D(filters=6, kernel_size=5, padding='same', activation=tf.nn.tanh, input_shape=input_shape)
         self.pool1 = tf.keras.layers.AveragePooling2D(pool_size=2, strides=2)
         self.conv2 = tf.keras.layers.Conv2D(filters=16, kernel_size=5, padding='valid', activation=tf.nn.tanh)
@@ -22,3 +22,15 @@ class LeNet5(tf.keras.Model):
         x = self.flatten(x)
         x = self.fc1(x)
         return self.fc2(x)
+
+    def _build(self, input_shape):
+        inputs = tf.keras.Input(shape=input_shape[1:])
+        _ = self.call(inputs)
+
+    def get_config(self):
+        config = super(LeNet5, self).get_config()
+        return config
+
+    @classmethod
+    def from_config(cls, config):
+        return cls(**config)
