@@ -16,3 +16,11 @@ The above image showcases the predictions made by the **LeNet-5** model on the *
 - **Predicted Label (Pred):** The digit predicted by the model.
 
 The model demonstrates high accuracy, correctly classifying most of the digits. 
+---
+## About LeNet-5
+
+LeNet-5 is one of the first convolutional neural network (CNN) architectures, introduced in the 1998 paper [*Gradient-Based Learning Applied to Document Recognition*](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) by **Yann LeCun**, **Léon Bottou**, **Yoshua Bengio**, and **Patrick Haffner**.
+
+For more information, visit the official page for the [LeNet architecture](http://yann.lecun.com/exdb/lenet/) maintained by Yann LeCun.
+
+---
