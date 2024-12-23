@@ -13,6 +13,8 @@ def train_model():
     model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
     history = model.fit(x_train, y_train, epochs=10, batch_size=128, validation_data=(x_test, y_test))
     plot_training_results(history)
+    model.save('../saved_models/lenet5.keras')
+    model.export('../saved_models/lenet5')
     model.save('../saved_models/lenet5.h5')
 
 if __name__ == "__main__":
