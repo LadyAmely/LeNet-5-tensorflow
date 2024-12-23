@@ -8,5 +8,5 @@ LeNet-5 is one of the earliest convolutional neural network (CNN) architectures,
 - **Implementation**: reproduction of the original LeNet-5 architecture as described in the paper.
 - **Pre-Trained Model**: Includes a pre-trained LeNet-5 model on the **MNIST dataset**.
 ---
-![MNIST](https://github.com/LadyAmely/SocialWebApp/blob/master/galaxy-flow-homepage.png)
+![MNIST](https://github.com/LadyAmely/LeNet-5-tensorflow/blob/master/plots/mnist_predictions_visualization.png)
 
