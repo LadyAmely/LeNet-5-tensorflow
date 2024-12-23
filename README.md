@@ -15,4 +15,4 @@ The above image showcases the predictions made by the **LeNet-5** model on the *
 - **True Label (True):** The actual digit in the image.
 - **Predicted Label (Pred):** The digit predicted by the model.
 
-The model demonstrates high accuracy, correctly classifying most of the digits. The examples include a mix of simple and challenging cases, highlighting the effectiveness of the LeNet-5 architecture for handwritten digit recognition.
+The model demonstrates high accuracy, correctly classifying most of the digits. 
