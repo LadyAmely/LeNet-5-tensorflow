@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3083d3ea-5b79-4883-b426-063230f44e24" name="Changes" comment="lenet-5-commit-4">
-      <change beforePath="$PROJECT_DIR$/saved_models/lenet5.h5" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/lenet5.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_models/lenet5.keras" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/lenet5.keras" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_models/lenet5/fingerprint.pb" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/lenet5/fingerprint.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_models/lenet5/saved_model.pb" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/lenet5/saved_model.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_models/lenet5/variables/variables.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/lenet5/variables/variables.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saved_models/lenet5/variables/variables.index" beforeDir="false" afterPath="$PROJECT_DIR$/saved_models/lenet5/variables/variables.index" afterDir="false" />
+    <list default="true" id="3083d3ea-5b79-4883-b426-063230f44e24" name="Changes" comment="lenet-5-commit-5">
+      <change beforePath="$PROJECT_DIR$/train/evaluate_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train/evaluate_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.prediction_visualizer">
+  <component name="RunManager" selected="Python.evaluate_model">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LeNet-5" />
       <option name="ENV_FILES" value="" />
@@ -187,8 +182,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prediction_visualizer" />
         <item itemvalue="Python.evaluate_model" />
+        <item itemvalue="Python.prediction_visualizer" />
         <item itemvalue="Python.train_model" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.prepare_dataset" />
@@ -214,7 +209,7 @@
       <workItem from="1734947365971" duration="2388000" />
       <workItem from="1734966287180" duration="1601000" />
       <workItem from="1734969669968" duration="2434000" />
-      <workItem from="1734972149947" duration="17692000" />
+      <workItem from="1734972149947" duration="18132000" />
     </task>
     <task id="LOCAL-00001" summary="lenet-5">
       <option name="closed" value="true" />
@@ -256,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734989311059</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lenet-5-commit-5">
+      <option name="closed" value="true" />
+      <created>1734991656193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734991656193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,12 +271,13 @@
     <MESSAGE value="lenet-5-commit-2" />
     <MESSAGE value="lenet-5-commit-3" />
     <MESSAGE value="lenet-5-commit-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lenet-5-commit-4" />
+    <MESSAGE value="lenet-5-commit-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lenet-5-commit-5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeNet_5$evaluate_predictions.coverage" NAME="evaluate_predictions Coverage Results" MODIFIED="1734986980131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/LeNet_5$predictions.coverage" NAME="predictions Coverage Results" MODIFIED="1734990960289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/LeNet_5$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1734990893752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/LeNet_5$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1734991923336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
     <SUITE FILE_PATH="coverage/LeNet_5$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1734990782665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
     <SUITE FILE_PATH="coverage/LeNet_5$prepare_dataset.coverage" NAME="prepare_dataset Coverage Results" MODIFIED="1734977531658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/LeNet_5$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1734978951398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
