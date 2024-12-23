@@ -21,6 +21,5 @@ The model demonstrates high accuracy, correctly classifying most of the digits.
 
 LeNet-5 is one of the first convolutional neural network (CNN) architectures, introduced in the 1998 paper [*Gradient-Based Learning Applied to Document Recognition*](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) by **Yann LeCun**, **Léon Bottou**, **Yoshua Bengio**, and **Patrick Haffner**.
 
-For more information, visit the official page for the [LeNet architecture](http://yann.lecun.com/exdb/lenet/) maintained by Yann LeCun.
 
 ---
