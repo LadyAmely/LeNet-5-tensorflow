@@ -4,7 +4,7 @@ This repository contains an implementation of the LeNet-5 model in TensorFlow, o
 
 LeNet-5 is one of the earliest convolutional neural network (CNN) architectures, designed for handwritten digit recognition tasks. The model in this repository has been trained on the MNIST dataset, which is widely used as a benchmark dataset for evaluating machine learning algorithms in digit classification. 
 
-![](https://komarev.com/ghpvc/?username=LadyAmely&color=green) ![Unique Visitors](https://visitor-badge.laobi.icu/badge?page_id=<LadyAmely>.<repo>)
+![](https://komarev.com/ghpvc/?username=LadyAmely&color=green) 
 
 
 ### Features:
